@@ -1,0 +1,79 @@
+   
+   
+   body{ font-family: 'Orbitron', sans-serif;
+        color: aliceblue;
+    }
+    body{
+    background-image: url(Imagens-Museu-Futurista-imagens/backgroud.png);
+   
+}   /*coloquei o papel de parede e troquei a fonte*/
+header{
+    text-align: center;
+    background-color: #1c024085;
+}
+/*configurei o cabeçalho*/
+
+.imagem{
+     width: 250px;
+     border-radius: 10%;
+border: 2px solid rgb(83, 36, 89);
+}/*diminui a imagem de boas vindas */
+ 
+.imagem:hover, .imagens-invenções:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #8f00ff, 0 0 35px #ffffff20;
+    transition: transform 1s ease, box-shadow 1s ease;}
+/*fiz o hover*/
+    
+    
+    .imagens-invenções{ 
+        width: 250px;
+     border-radius: 10%;
+border: 2px solid rgb(83, 36, 89);
+}
+.card :hover{
+     background-color: #550e615e;
+      color: #ffffff;
+      width: 300px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(65, 6, 70, 0.3);
+      text-align: center;
+      transition:  0.3s ease, 0.3s ease;
+    }
+    /*fiz o card os configurei e diminui as imagens das invenções*/
+figcaption{
+    
+  max-width: 300px;
+}
+
+    form {
+      background-color: rgba(0, 0, 60, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #8000ff;
+    }
+
+    input, textarea, button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      font-family: 'Orbitron', sans-serif;
+    }
+    /*configurei o formulario*/
+    nav ul li a{
+        color: #780ce4;
+      
+    }
+    nav ul li a:hover{
+         text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    
+    transition:transform 2s;
+    }
+
+
+
+ 

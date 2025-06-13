@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+</head>
+<body>
+    
+  <header>
+    <h1>Museu do Futuro</h1>
+    <p>Exposição de invenções que ainda vão existir!</p>
+    <nav>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#invenções">Invenções</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    </nav>
+  </header>
+<!--fiz o cabeçalho-->
+  <main>
+    <section id="inicio">
+      <h2>Boas-vindas</h2>
+      <p>Seja bem-vindo ao Museu do Futuro, onde a imaginação encontra a inovação! Explore tecnologias que ainda estão por vir.</p>
+      <img src="Imagens-Museu-Futurista-imagens/imagem.png" alt="Cidade do futuro" class="imagem">
+    </section>
+<!--fiz a seção de incio e de boas vindas -->
+    <section id="invenções">
+      <h2>Invenções Futuristas</h2>
+
+      <article class="card">
+        <h3>AR Sonic Beacon</h3>
+        <figure><img src="Imagens-Museu-Futurista-imagens/AR SONIC BEACON.png" alt="AR Sonic Beacon" class="imagens-invenções"/>
+        <figcaption>Um dispositivo auditivo que projeta sons de orientação no espaço ao redor do usuário, criando um sistema de navegação por realidade aumentada. Criado para pessoas com deficiência visual, lançado em 2048.</figcaption>
+      </figure>
+    </article>
+
+      <article class="card">
+        <h3>Quantum Mesh</h3>
+      <figure><img src="Imagens-Museu-Futurista-imagens/QUANTUM MESH.png" alt="Quantum MESH" class="imagens-invenções"/>
+        <figcaption>Um painel visual que representa estruturas quânticas em 5D, auxiliando cientistas na compreensão de conceitos abstratos da física avançada. Inventado em 2075 por uma equipe global de físicos teóricos.</figcaption>
+     </figure>
+    </article>
+
+      <article class="card">
+        <h3>NeuroLume Interface</h3>
+        <figure><img src="Imagens-Museu-Futurista-imagens/SYTHWAVE HALO.png" alt="NeuroLume Interface" class="imagens-invenções"/>
+        <figcaption>Uma interface neural que projeta pensamentos em imagens holográficas, utilizada por artistas, designers e educadores para criar conteúdo direto da mente. Inventada em 2082.</figcaption>
+      </figure>
+      </article>
+    </section>
+    <!--fiz os cards com as imagens-->
+    <section id="contato">
+      <h2>Contato</h2>
+      <form>
+         <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="preferida">Qual invenção você mais gostou?</label>
+        <input type="text" id="preferida" name="preferida" />
+
+        <label for="sugestao">Sugira uma nova invenção:</label>
+        <textarea id="sugestao" name="sugestao"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <!--Formulario-->
+  </main>
+
+  <footer>
+    <p>“O futuro já começou e começa com HTML!”</p>
+  </footer>
+</body>
+</html>
