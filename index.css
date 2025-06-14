@@ -30,6 +30,7 @@ border: 2px solid rgb(83, 36, 89);
         width: 250px;
      border-radius: 10%;
 border: 2px solid rgb(83, 36, 89);
+
 }
 .card :hover{
      background-color: #550e615e;
@@ -48,7 +49,7 @@ figcaption{
 }
 
     form {
-      background-color: rgba(0, 0, 60, 0.7);
+      background-color: rgba(0, 0, 60, 0.723);
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 0 10px #8000ff;
