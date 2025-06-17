@@ -1,0 +1,164 @@
+   
+   /*font-family:para mudar a fonte
+   backgrousd-image:;usei para colocar a imagem de fundo
+   background-repeat:;usei para a imagem de fundo não repetir
+   background-size:;usei para a imagem de fundo ocupar todo o espaço
+    background-position:;usei para colocar a imagem de fundo no centro
+   */
+   body{ font-family: 'Orbitron', sans-serif;
+    background-image: url(Imagens-Museu-Futurista-imagens/backgroud.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+  background-position: center;
+}  
+
+
+header{
+    text-align: center;
+    background-color: #1c024085;
+}
+/*width para definir a larugura da imagem
+border-radius:;usei para definir como vai ficar as bordas
+border:;usei para definir a cor da borda
+*/
+
+.imagem{
+     width: 250px;
+     border-radius: 10%;
+border: 2px solid rgb(62, 25, 63);
+}
+ /*transform:;usei para definir o tamanho do hover
+box-shadow:;usei para definir o tamanho da sombra do hover
+transition:;usei para definir o tempo que vai demorar para o hover estar completo
+ */
+
+.imagem:hover, .imagens-invenções:hover {
+    transform: scale(1.05);
+    box-shadow:20px #5f0567;
+    transition: 1s ease;
+  }
+
+    
+    /*width:250px;usei para definir a largura da imagem
+border-radius:10%;usei para definir como vai ficar as bordas
+border;usei para definir a cor da borda
+*/
+    .imagens-invenções{ 
+        width: 250px;
+     border-radius: 10%;
+border:2px #5a0464;
+
+}
+
+    
+
+figcaption{
+    
+  max-width: 300px;
+}
+/*backgrou-color:e onde vamos colocar a cor do fundo
+padding:;usei para definir o tamanho do form
+border-radius:;usei para definir como vai ficar as bordas
+box-shadow:;usei para definir o tamanho da sombra do form
+*/
+    form {
+      background-color: rgba(0, 0, 60, 0.723);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow:10px #000000;
+    }
+/*width ele vai se esticar para ocupar 100% do espaço
+margin-bottom:;usei para dar espaço entre os inputs
+padding:;usei para definir o tamanho do input
+border-radius:;usei para definir como vai ficar as bordas
+border:;usei para tirar a borda do input
+*/
+    input, textarea, button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+ /*defini a cor na navbar*/
+    nav ul li a{
+        color: #780ce4;
+    }
+    /*usei o transition para definir o tempo vai demorar para o hover estar completo e o color para definir a cor do hover*/
+    nav ul li a:hover{
+         text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    transition:1.5s;
+    }
+/*display:flex;usei ele para ativar o flexbox.
+flex-wrap:;para quando não tiver espaço para quebrar a coluna.
+justify-content:center; para alinhar o conteudo no centro.
+gap para dar espaço entre os cards
+padding:;usei para definir o tamanho do card.
+*/
+  .invenções {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  color: #fff;
+}
+
+/*usei
+O backgroud-color;para definir a cor do card.
+color para definir a cor das letras.
+border-radius para definir como ficara as bordas.
+padding para definir o tamanho do card.
+width para definir a largura do card. 
+display:flex;para ativar o flex box.
+flex direction;para colocar os itens em colunas. 
+aling-itens:center;para colocar as coisas no centro.
+text-aling:center;colocar os textos no centro.
+transition:;para colocar o tempo de quando vai colocar a animação. 
+*/
+.card {
+  background-color: #000000;
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 15px rgba(0, 255, 255, 0.3);
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+/*box-shadow;para definir oque vai mudar no hover.*/
+
+.card:hover {
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.6);
+}
+
+/*width:100%;usei para ocupar 100% do espaço 
+heigth:auto;para ter seu tamanho automatico
+border-radius:;define como vai ficar as bordas
+margin-button
+*/
+.card img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+ 
+}
+
+/*font-family:;coloquei para mudar a fonte do h3
+font-size usie o font size para definir o tamanho*/
+.card h3 {
+  font-size: 1.3em;
+  margin: 10px 0;
+  color: aliceblue;
+}
+/*font-size:;usei para definir o tamanho da fonte
+color:;usei para definir a cor do texto*/
+.card figcaption {
+  font-size: 0.95em;
+  color: #ccc;
+}

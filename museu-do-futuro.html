@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
 </head>
 <body>
-    
+    <!--usei o header para colocar o cebeçalho e o h1 para o titulo principal na pagina e cirei uma navbar com a tag nav crieu um lista desorganisada e o li que cria uma lista-->
   <header>
     <h1>Museu do Futuro</h1>
     <p>Exposição de invenções que ainda vão existir!</p>
@@ -20,15 +20,17 @@
     </ul>
     </nav>
   </header>
-<!--fiz o cabeçalho-->
+
+
   <main>
-    <section id="inicio">
+    <section class="inicio">
       <h2>Boas-vindas</h2>
       <p>Seja bem-vindo ao Museu do Futuro, onde a imaginação encontra a inovação! Explore tecnologias que ainda estão por vir.</p>
       <figure><img src="Imagens-Museu-Futurista-imagens/imagem.png" alt="Cidade do futuro" class="imagem"></figure>
     </section>
-<!--fiz a seção de incio e de boas vindas -->
-    <section id="invenções">
+<!--usei a section para começar uma seção de boas vindas o h2 como um sub titulo da pag e coloquei um figure para agrupar uma imgem e para ficar semantico no html.-->
+
+    <section class="invenções">
       <h2>Invenções Futuristas</h2>
 
       <article class="card">
@@ -41,8 +43,9 @@
       <article class="card">
         <h3>Quantum Mesh</h3>
       <figure><img src="Imagens-Museu-Futurista-imagens/QUANTUM MESH.png" alt="Quantum MESH" class="imagens-invenções"/>
+        </figure>
         <figcaption>Um painel visual que representa estruturas quânticas em 5D, auxiliando cientistas na compreensão de conceitos abstratos da física avançada. Inventado em 2075 por uma equipe global de físicos teóricos.</figcaption>
-     </figure>
+    
     </article>
 
       <article class="card">
@@ -52,8 +55,9 @@
       </figure>
       </article>
     </section>
-    <!--fiz os cards com as imagens-->
-    <section id="contato">
+    <!--usei uma section para classificala como imagem das invenções e o article para separar as invenções usei o h3 para dar um destaque no nome das inveções o figure usei para deixar semantico o html e usei o figcpaion para colocar legenda nas imagens-->
+
+    <section class="contato">
       <h2>Contato</h2>
       <form>
          <label for="nome">Nome:</label>
@@ -71,11 +75,12 @@
         <button type="submit">Enviar</button>
       </form>
     </section>
-    <!--Formulario-->
+    <!--Form para criar um formilario e a tag label para dar nome ao que vai ser colocado no input e texarea input e onde o clirnte vai colocar suas informaçoes e o textarea vai ser onde o cliente vai colocar suas opiniões-->
   </main>
 
   <footer>
     <p>“O futuro já começou e começa com HTML!”</p>
   </footer>
+  <!--usei o footer para colocar o rodape da pagina e coloquei uma frase de efeito-->
 </body>
 </html>
