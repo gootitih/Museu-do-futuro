@@ -79,6 +79,7 @@ border:;usei para tirar a borda do input
       padding: 10px;
       border-radius: 5px;
       border: none;
+      color: #fff;
     }
  /*defini a cor na navbar*/
     nav ul li a{
@@ -161,4 +162,7 @@ color:;usei para definir a cor do texto*/
 .card figcaption {
   font-size: 0.95em;
   color: #ccc;
+}
+footer {
+  color: #fff;
 }
