@@ -149,11 +149,14 @@ margin-button
  
 }
 
-/*font-family:;coloquei para mudar a fonte do h3
-font-size usie o font size para definir o tamanho*/
+/*
+font-size usie o font size para definir o tamanho
+margin:;usei para definir o tamanho da margem
+color:;usei para definir a cor do texto
+*/
 .card h3 {
   font-size: 1.3em;
-  margin: 10px 0;
+  margin: 10px;
   color: aliceblue;
 }
 /*font-size:;usei para definir o tamanho da fonte
