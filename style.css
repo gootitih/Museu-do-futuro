@@ -87,7 +87,6 @@ border:;usei para tirar a borda do input
     }
     /*usei o transition para definir o tempo vai demorar para o hover estar completo e o color para definir a cor do hover*/
     nav ul li a:hover{
-         text-transform: capitalize;
     color: rgb(255, 255, 255);
     transition:1.5s;
     }
